@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="748px" height="579px" viewBox="0 0 748 579" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>agent_arch</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="agent_arch">
+            <polygon id="Fill-1" fill="#FFFFFF" points="0 579 748 579 748 0 0 0"></polygon>
+            <polygon id="Fill-3" fill="#FFFFFF" points="0 579 748 579 748 0 0 0"></polygon>
+            <polygon id="Fill-4" fill="#FFFFFF" points="132.156 484 352.156 484 352.156 434 132.156 434"></polygon>
+            <polygon id="Stroke-5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="132.156 434 352.156 434 352.156 484 132.156 484"></polygon>
+            <text id="Reshape" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="210.596" y="460.360107">Reshape</tspan>
+            </text>
+            <text id="Image-Patches" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="188.812" y="564.713007">Image Patches</tspan>
+            </text>
+            <text id="(529,-7,-7,-3)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="256" y="519.036607">(529, 7, 7, 3)</tspan>
+            </text>
+            <path d="M242.156,548.3529 L242.156,493.9" id="Stroke-6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-7" fill="#000000" points="242.156 485.9 239.156 493.9 245.156 493.9"></polygon>
+            <polygon id="Stroke-8" stroke="#000000" points="242.156 485.9 239.156 493.9 245.156 493.9"></polygon>
+            <polygon id="Fill-9" fill="#00FF00" points="0.588 369.6471 220.588 369.6471 220.588 319.6471 0.588 319.6471"></polygon>
+            <polygon id="Stroke-10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="0.588 319.6471 220.588 319.6471 220.588 369.6471 0.588 369.6471"></polygon>
+            <text id="FC-(Key-projection)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="42.436" y="346.007207">FC (Key p</tspan>
+                <tspan x="112.964" y="346.007207" letter-spacing="-0.288">r</tspan>
+                <tspan x="117.716" y="346.007207">ojection)</tspan>
+            </text>
+            <polygon id="Fill-11" fill="#00FF00" points="263.724 369.6471 483.724 369.6471 483.724 319.6471 263.724 319.6471"></polygon>
+            <polygon id="Stroke-12" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="263.724 319.6471 483.724 319.6471 483.724 369.6471 263.724 369.6471"></polygon>
+            <text id="FC-(Query-projection)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="297.716" y="346.007207">FC (Query p</tspan>
+                <tspan x="383.956" y="346.007207" letter-spacing="-0.288">r</tspan>
+                <tspan x="388.708" y="346.007207">ojection)</tspan>
+            </text>
+            <text id="(529,-147)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="338.444" y="404.683607">(529, 147)</tspan>
+            </text>
+            <polygon id="Fill-13" fill="#FFFFFF" points="263.724 266.5588 483.724 266.5588 483.724 216.5588 263.724 216.5588"></polygon>
+            <polygon id="Stroke-14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="263.724 216.5588 483.724 216.5588 483.724 266.5588 263.724 266.5588"></polygon>
+            <text id="Transpose" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" letter-spacing="-1.472" fill="#000000">
+                <tspan x="336.828" y="242.918907">T</tspan>
+                <tspan x="343.068" y="242.918907">ranspose</tspan>
+            </text>
+            <path d="M373.724,319.6471 L373.724,276.4588" id="Stroke-15" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-16" fill="#000000" points="373.724 268.4588 370.724 276.4588 376.724 276.4588"></polygon>
+            <polygon id="Stroke-17" stroke="#000000" points="373.724 268.4588 370.724 276.4588 376.724 276.4588"></polygon>
+            <text id="(529,-4)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="390" y="295.963007">(529, 4)</tspan>
+            </text>
+            <polygon id="Fill-18" fill="#FFFFFF" points="132.156 163.4706 352.156 163.4706 352.156 113.4706 132.156 113.4706"></polygon>
+            <polygon id="Stroke-19" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="132.156 113.47059 352.156 113.47059 352.156 163.4706 132.156 163.4706"></polygon>
+            <text id="Matrix-Multiplication" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="169.852" y="139.830707">Matrix Multiplication</tspan>
+            </text>
+            <text id="(4,-529)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="390" y="198.698307">(4, 529)</tspan>
+            </text>
+            <text id="(529,-4)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="61" y="295.963007">(529, 4)</tspan>
+            </text>
+            <polygon id="Fill-20" fill="#FFFFFF" points="132.156 60.3824 352.156 60.3824 352.156 10.3824 132.156 10.3824"></polygon>
+            <polygon id="Stroke-21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="132.156 10.38235 352.156 10.38235 352.156 60.38235 132.156 60.38235"></polygon>
+            <text id="Softmax-(along-columns)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="153.548" y="36.7424604">Softmax (along columns)</tspan>
+            </text>
+            <path d="M242.156,113.47059 L242.156,70.28235" id="Stroke-22" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-23" fill="#000000" points="242.156 62.2824 239.156 70.2824 245.156 70.2824"></polygon>
+            <polygon id="Stroke-24" stroke="#000000" points="242.156 62.28235 239.156 70.28235 245.156 70.28235"></polygon>
+            <text id="(529,-529)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="256" y="89.7865774">(529, 529)</tspan>
+            </text>
+            <polygon id="Fill-25" fill="#FFFFFF" points="526.86 369.6471 746.86 369.6471 746.86 319.6471 526.86 319.6471"></polygon>
+            <polygon id="Stroke-26" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="526.86 319.6471 746.86 319.6471 746.86 369.6471 526.86 369.6471"></polygon>
+            <text id="Reshape" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="605.3" y="346.007207">Reshape</tspan>
+            </text>
+            <polygon id="Fill-27" fill="#FFFFFF" points="526.86 60.3824 746.86 60.3824 746.86 10.3824 526.86 10.3824"></polygon>
+            <polygon id="Stroke-28" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="526.86 10.38235 746.86 10.38235 746.86 60.38235 526.86 60.38235"></polygon>
+            <text id="Sum-(along-rows)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="574.932" y="36.7424604">Sum (along </tspan>
+                <tspan x="660.292" y="36.7424604" letter-spacing="-0.288">r</tspan>
+                <tspan x="665.044" y="36.7424604">ows)</tspan>
+            </text>
+            <path d="M352.156,35.382353 L516.96,35.382353" id="Stroke-29" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-30" fill="#000000" points="524.96 35.3824 516.96 32.3824 516.96 38.3824"></polygon>
+            <polygon id="Stroke-31" stroke="#000000" points="524.96 35.382353 516.96 32.3823529 516.96 38.382353"></polygon>
+            <text id="(529,-529)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="381.104" y="18.3601074">(529, 529)</tspan>
+            </text>
+            <polygon id="Fill-32" fill="#FFFFFF" points="526.86 163.4706 746.86 163.4706 746.86 113.4706 526.86 113.4706"></polygon>
+            <polygon id="Stroke-33" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="526.86 113.47059 746.86 113.47059 746.86 163.4706 526.86 163.4706"></polygon>
+            <text id="Argsort-&amp;-Slice" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="584.052" y="139.830707">A</tspan>
+                <tspan x="594.42" y="139.830707" letter-spacing="-0.448">r</tspan>
+                <tspan x="598.852" y="139.830707">gsort &amp; Slice</tspan>
+            </text>
+            <path d="M636.86,60.38235 L636.86,103.57059" id="Stroke-34" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-35" fill="#000000" points="636.86 111.5706 639.86 103.5706 633.86 103.5706"></polygon>
+            <polygon id="Stroke-36" stroke="#000000" points="636.86 111.57059 639.86 103.57059 633.86 103.57059"></polygon>
+            <text id="(1,-529)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="658" y="89.7865774">(1, 529)</tspan>
+            </text>
+            <polygon id="Fill-37" fill="#FFFFFF" points="526.86 266.5588 746.86 266.5588 746.86 216.5588 526.86 216.5588"></polygon>
+            <polygon id="Stroke-38" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="526.86 216.5588 746.86 216.5588 746.86 266.5588 526.86 266.5588"></polygon>
+            <text id="Index-to-position-mapping" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="543.5" y="242.918907">Index to position mapping</tspan>
+            </text>
+            <path d="M636.86,163.4706 L636.86,206.6588" id="Stroke-39" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-40" fill="#000000" points="636.86 214.6588 639.86 206.6588 633.86 206.6588"></polygon>
+            <polygon id="Stroke-41" stroke="#000000" points="636.86 214.6588 639.86 206.6588 633.86 206.6588"></polygon>
+            <path d="M636.86,266.5588 L636.86,309.7471" id="Stroke-42" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-43" fill="#000000" points="636.86 317.7471 639.86 309.7471 633.86 309.7471"></polygon>
+            <polygon id="Stroke-44" stroke="#000000" points="636.86 317.7471 639.86 309.7471 633.86 309.7471"></polygon>
+            <polygon id="Fill-45" fill="#00FF00" points="526.86 484 746.86 484 746.86 434 526.86 434"></polygon>
+            <polygon id="Stroke-46" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="526.86 434 746.86 434 746.86 484 526.86 484"></polygon>
+            <text id="LSTM-(#hidden=16)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="566.7" y="460.360107">LSTM (#hidden=16)</tspan>
+            </text>
+            <path d="M636.86,369.6471 L636.86,424.1" id="Stroke-47" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-48" fill="#000000" points="636.86 432.1 639.86 424.1 633.86 424.1"></polygon>
+            <polygon id="Stroke-49" stroke="#000000" points="636.86 432.1 639.86 424.1 633.86 424.1"></polygon>
+            <text id="(1,-10)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="662.448" y="192.874807">(1, 10)</tspan>
+            </text>
+            <text id="(2,-10)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="662.448" y="295.963007">(2, 10)</tspan>
+            </text>
+            <text id="(1,-20)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="662.448" y="404.683607">(1, 20)</tspan>
+            </text>
+            <text id="(1,-A)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="666.16" y="519.036607">(1, A)</tspan>
+            </text>
+            <text id="Action" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="614.044" y="564.713007">Action</tspan>
+            </text>
+            <path d="M636.86,484 L636.86,538.4529" id="Stroke-50" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-51" fill="#000000" points="636.86 546.45294 639.86 538.45294 633.86 538.45294"></polygon>
+            <polygon id="Stroke-52" stroke="#000000" points="636.86 546.4529 639.86 538.4529 633.86 538.4529"></polygon>
+            <path d="M270.9196,434 L337.4883,376.1415" id="Stroke-53" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-54" fill="#000000" points="343.5264 370.8935 335.5203 373.8772 339.4563 378.4058"></polygon>
+            <polygon id="Stroke-55" stroke="#000000" points="343.5264 370.8935 335.5203 373.8772 339.4563 378.4058"></polygon>
+            <path d="M213.3924,434 L146.8237,376.1415" id="Stroke-56" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-57" fill="#000000" points="140.7856 370.8935 144.8557 378.4058 148.7917 373.8772"></polygon>
+            <polygon id="Stroke-58" stroke="#000000" points="140.7856 370.8935 144.8557 378.4058 148.7917 373.8772"></polygon>
+            <text id="(529,-147)" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="75.308" y="404.683607">(529, 147)</tspan>
+            </text>
+            <path d="M341.8174,216.5588 L281.8554,169.5765" id="Stroke-59" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-60" fill="#000000" points="275.5582 164.6424 280.0052 171.938 283.7057 167.2151"></polygon>
+            <polygon id="Stroke-61" stroke="#000000" points="275.5582 164.6424 280.0052 171.938 283.7057 167.2151"></polygon>
+            <path d="M126.5413,319.6471 L220.8771,171.8161" id="Stroke-62" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Fill-63" fill="#000000" points="225.1806 165.0723 218.3481 170.2023 223.4061 173.43"></polygon>
+            <polygon id="Stroke-64" stroke="#000000" points="225.1806 165.0723 218.3481 170.2023 223.4061 173.43"></polygon>
+        </g>
+    </g>
+</svg>
