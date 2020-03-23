@@ -18,13 +18,22 @@ For attribution in academic contexts, please cite this work as
 
 BibTeX citation
 
-<pre class="citation long">@article{attentionagent2020,
+<!--<pre class="citation long">@article{attentionagent2020,
   author = {Yujin Tang and Duong Nguyen and David Ha},
   title  = {Neuroevolution of Self-Interpretable Agents},
   eprint = {arXiv:2003.08165},
   url    = {https://attentionagent.github.io},
   note   = "\url{https://attentionagent.github.io}",
   year   = {2020}
+}</pre>-->
+
+<pre class="citation long">@inproceedings{attentionagent2020,
+  author    = {Yujin Tang and Duong Nguyen and David Ha},
+  title     = {Neuroevolution of Self-Interpretable Agents},
+  booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+  url       = {https://attentionagent.github.io},
+  note      = "\url{https://attentionagent.github.io}",
+  year      = {2020}
 }</pre>
 
 ## Open Source Code
