@@ -677,9 +677,7 @@ Indirect encoding methods are not confined to neuroevolution. Inspired by earlie
 **Attention-based RL**&nbsp; Inspired by biological vision systems, earlier works formulated the problem of visual attention as an RL problem <dt-cite key="schmidhuber1991learning,mnih2014recurrent,stollenga2014deep"></dt-cite><dt-cite key="ba2014multiple,cheung2016emergence"></dt-cite>.
 Recent work <dt-cite key="zambaldi2018deep"></dt-cite> incorporated multi-head self-attention to learn representations that encode relational information between feature entities, with these features the learned agent is able to solve a novel navigation and planning task and achieve SOTA results in six out of seven StarCraft II tasks. Because the agent learned relations between entities, it can also generalize to unseen settings during training.
 
-In order to capture the interactions in a system that affects the dynamics, <dt-cite key="goyal2019recurrent"></dt-cite> proposed to use a group of modified RNNs. 
-Self-attention is used to combine the hidden states and inputs. Each member in the group competes for attention at each step, and only the winners can read the input and other members' states.
-This modular mechanism led to specialization amongst the group that improved generalization on Atari.
+In order to capture the interactions in a system that affects the dynamics, <dt-cite key="goyal2019recurrent"></dt-cite> proposed to use a group of modified RNNs. Self-attention is used to combine their hidden states and inputs. Each member competes for attention at each step, and only the winners can access the input and also other members’ states. They showed that this modular mechanism improved generalization on the Atari domain.
 
 In addition to these works, attention is also explicitly used for interpretability in RL.
 In <dt-cite key="Sorokin2015DeepAR"></dt-cite>, the authors incorporated soft and hard attention mechanism into the deep recurrent Q-network, and they were able to outperform Deep Q-network (DQN) <dt-cite key="mnih2013playing"></dt-cite> in a subset of the Atari games.
