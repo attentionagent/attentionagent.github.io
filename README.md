@@ -1,6 +1,6 @@
 # Neuroevolution of Self-Interpretable Agents
 
-This repo contains the videos for our [paper](https://arxiv.org/abs/2003.08165).
+This repo contains the videos for our GECCO2020 [paper](https://arxiv.org/abs/2003.08165).
 
 ### If all you want to do is view the page locally
 
@@ -40,15 +40,18 @@ brew install fswatch
 
 ### Citation
 
+This work will appear at <a href="https://gecco-2020.sigevo.org/index.html/HomePage" target="_blank">GECCO 2020</a> as a full paper.
+
 For attribution in academic contexts, please cite this work as
 
 BibTeX citation
 ```
-@article{attentionagent2020,
-  author = {Yujin Tang and Duong Nguyen and David Ha},
-  title  = {Neuroevolution of Self-Interpretable Agents},
-  eprint = {arXiv:2003.08165},
-  url    = {https://attentionagent.github.io},
-  year   = {2020}
+@inproceedings{attentionagent2020,
+  author    = {Yujin Tang and Duong Nguyen and David Ha},
+  title     = {Neuroevolution of Self-Interpretable Agents},
+  booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+  url       = {https://attentionagent.github.io},
+  note      = "\url{https://attentionagent.github.io}",
+  year      = {2020}
 }
 ```
