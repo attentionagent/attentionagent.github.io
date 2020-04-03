@@ -514,20 +514,20 @@ While there are infinitely many ways to modify an environment,
 our modifications respect one important principle: the modifications should not cause changes of the core mission or critical information loss.
 With this design principle in mind, we present the following modifications:
 
-- **CarRacing--Color Perturbation&nbsp;** We randomly perturb the background color. At the beginning of each episode, we sample two 3D vectors as perturbations uniformly from the interval $[-0.2, 0.2]$ and add respectively to the lane and grass field RGB vectors. The perturbed colors remain constant throughout an episode.
+- **CarRacing--Color Perturbation&nbsp;**  We randomly perturb the background color. At the beginning of each episode, we sample two scalar perturbations uniformly from the interval $[-0.2, 0.2]$ and add respectively to the lane and grass field RGB vectors. Once the perturbation is added, the colors remain constant throughout the episode.
 
 <div style="text-align: center;">
 <video class="b-lazy" src="https://storage.googleapis.com/quickdraw-models/sketchRNN/attention/assets/mp4/carracing_mod1_ours_compare.mp4" type="video/mp4" autoplay muted playsinline loop style="width: 97.5%;" ></video>
 <figcaption style="text-align: left;">
-&nbsp;Original Environment (Score: 914±15) vs Color Perturbation (Score: 898±56)<br/>
+&nbsp;Original Environment (Score: 914±15) vs Color Perturbation (Score: 866±112)<br/>
 </figcaption>
 <br/>
 <video class="b-lazy" src="https://storage.googleapis.com/quickdraw-models/sketchRNN/attention/assets/mp4/carracing_baselines_mod1.mp4" type="video/mp4" autoplay muted playsinline loop style="width: 97.5%;" ></video>
 <table style="width: 100%;" cellspacing="0" cellpadding="0">
 <tr>
-<td style="width: 33.3%;border: 1px solid transparent;"><figcaption style="text-align: left; padding-top: 0;">&nbsp;World Models (Score: 851±130)</figcaption></td>
-<td style="width: 33.3%;border: 1px solid transparent;"><figcaption style="text-align: left; padding-top: 0;">&nbsp;GA (Score: 160±304)</figcaption></td>
-<td style="width: 33.3%;border: 1px solid transparent;"><figcaption style="text-align: left; padding-top: 0;">&nbsp;PPO (Score: 730±338)</figcaption></td>
+<td style="width: 33.3%;border: 1px solid transparent;"><figcaption style="text-align: left; padding-top: 0;">&nbsp;World Models (Score: 655±353)</figcaption></td>
+<td style="width: 33.3%;border: 1px solid transparent;"><figcaption style="text-align: left; padding-top: 0;">&nbsp;GA (Score: 442±362)</figcaption></td>
+<td style="width: 33.3%;border: 1px solid transparent;"><figcaption style="text-align: left; padding-top: 0;">&nbsp;PPO (Score: 505±464)</figcaption></td>
 </tr>
 </table>
 
@@ -633,14 +633,14 @@ While our reproduced numbers do not exactly match the reported scores, they are 
 For each modification, we test a trained agent for 100 consecutive episodes and report its scores in the following table:
 
 <div style="text-align: center;">
-<img class="b-lazy" src=data:image/png;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="https://storage.googleapis.com/quickdraw-models/sketchRNN/attention/assets/png/result_generalization.png" style="display: block; margin: auto; width: 100%;"/>
+<img class="b-lazy" src=data:image/png;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="assets/png/result_generalization.png" style="display: block; margin: auto; width: 100%;"/>
 <figcaption style="text-align: left;">
 <b>Generalization Experiments&nbsp;</b> We train agents in the original task and test in the modified environments without re-training. For comparison, we also include the performance in the unmodified tasks. Results with significant performance drop highlighted.<br/>
 </figcaption>
 </div>
 
 Our agent generalizes well to all modifications while the baselines fail.
-While World Model is able to maintain its performance in color perturbations in CarRacing, it is sensitive to all other changes.
+While World Model does not suffer a significant performance loss in color perturbations in CarRacing, it is sensitive to all changes.
 Specifically, we observe $> 75\%$ score drops in Vertical Frames, Higher Walls, Floor Texture, Hovering Text and a $> 50\%$ score drop in Background Blob from its performances in the unmodified tasks.
 
 Since World Model's controller used as input the abstract representations it learned from reconstructing the input images, without much regularization, it is likely that the learned representations will encode visual information that is crucial to image reconstruction but not task-critical.
