@@ -42,7 +42,7 @@ BibTeX citation
 
 ## Open Source Code
 
-We will release the code soon! (We promise!)
+Please see our [repo](https://github.com/google/brain-tokyo-workshop) for details on reproducing the experiments in this work.
 
 ## Reuse
 
