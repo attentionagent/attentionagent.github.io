@@ -13,7 +13,7 @@ The experiments in this work were performed on multicore CPU Linux virtual machi
 <h2 id="citation">Citation</h2>
 
 <div style="text-align: left;">
-<img src="assets/png/gecco_logo.png" alt="GECCO 2020" style="display: block; margin: auto; width: 4.5%;" align="left"/>&nbsp;&nbsp;This work will be presented at <a href="https://gecco-2020.sigevo.org/index.html/HomePage" target="_blank">GECCO 2020</a> as a full paper.
+<img src="assets/png/gecco_logo.png" alt="GECCO 2020" style="display: block; margin: auto; width: 4.5%;" align="left"/>&nbsp;&nbsp;This work had been presented at <a href="https://gecco-2020.sigevo.org/index.html/HomePage" target="_blank">GECCO 2020</a> as a full paper.
 </div>
 
 For attribution in academic contexts, please cite this work as:
