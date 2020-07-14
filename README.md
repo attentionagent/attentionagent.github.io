@@ -40,7 +40,7 @@ brew install fswatch
 
 ### Citation
 
-This work will appear at <a href="https://gecco-2020.sigevo.org/index.html/HomePage" target="_blank">GECCO 2020</a> as a full paper.
+This work was presented at <a href="https://gecco-2020.sigevo.org/index.html/HomePage" target="_blank">GECCO 2020</a> as a full paper.
 
 For attribution in academic contexts, please cite this work as
 
