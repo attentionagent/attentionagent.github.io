@@ -77,7 +77,7 @@ Humans who learn to drive during a sunny day can (to some extent) also drive at 
 </figcaption>
 </div>
 
-The goal of this work is to showcase self-attention as a powerful tool for the neuroevolution toolbox, and we will open-source code for reproducing our experiments. We hope our results will encourage further investigation into the neuroevolution of self-attention models, and also revitalize interest in indirect encoding methods.
+The goal of this work is to showcase self-attention as a powerful tool for the neuroevolution toolbox, and we provide open-source code for reproducing our experiments (See [Appendix](#citation)). We hope our results will encourage further investigation into the neuroevolution of self-attention models, and also revitalize interest in indirect encoding methods.
 
 ______
 
