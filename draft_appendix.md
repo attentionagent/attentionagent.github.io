@@ -7,7 +7,7 @@ Any errors here are our own and do not reflect opinions of our proofreaders and 
 The experiments in this work were performed on multicore CPU Linux virtual machines provided by [Google Cloud Platform](https://cloud.google.com/).
 
 <div style="text-align: left;">
-<img src="https://storage.googleapis.com/quickdraw-models/sketchRNN/attention/assets/icons/vision.svg" alt="Vision Icon by artist monkik on Noun Project." style="display: block; margin: auto; width: 4.5%;" align="left"/>&nbsp;&nbsp;Vision icon by artist <a href="https://thenounproject.com/kukkik_jung/">monkik</a>.
+<img src="assets/icons/vision.svg" alt="Vision Icon by artist monkik on Noun Project." style="display: block; margin: auto; width: 4.5%;" align="left"/>&nbsp;&nbsp;Vision icon by artist <a href="https://thenounproject.com/kukkik_jung/">monkik</a>.
 </div>
 
 <h2 id="citation">Citation</h2>
